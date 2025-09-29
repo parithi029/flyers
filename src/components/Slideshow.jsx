@@ -4,11 +4,11 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 const slides = [
-  { src: "flyers/images/flyer/flyer copy.jpg", caption: "Hire Top Talent — Lanceboard", description: "Square social flyer composed in Photoshop with clean CTA and soft arcs." },
-  { src: "flyers/images/flyer/flyer1 copy.jpg", caption: "Studio Noir — Night in Contrast", description: "Moody poster made in Illustrator with monochrome portraits and accents." },
-  { src: "flyers/images/flyer/flyer2 copy.jpg", caption: "Glowstack Web Conference 2025", description: "Tech event flyer blending neon interface chips and QR registration." },
-  { src: "flyers/images/flyer/flyer3 copy.jpg", caption: "Innerverse Wellness Workshop", description: "Gentle serif layout with quote card and session details." },
-  { src: "flyers/images/flyer/flyer4.jpg", caption: "MarketCraft Pop‑Up Fair", description: "Playful hand‑drawn elements and bright headline for a local fair." },
+  { src: "./images/flyer/flyer.jpg", caption: "Hire Top Talent — Lanceboard", description: "Square social flyer composed in Photoshop with clean CTA and soft arcs." },
+  { src: "./images/flyer/flyer1.jpg", caption: "Studio Noir — Night in Contrast", description: "Moody poster made in Illustrator with monochrome portraits and accents." },
+  { src: "./images/flyer/flyer2.jpg", caption: "Glowstack Web Conference 2025", description: "Tech event flyer blending neon interface chips and QR registration." },
+  { src: "./images/flyer/flyer3.jpg", caption: "Innerverse Wellness Workshop", description: "Gentle serif layout with quote card and session details." },
+  { src: "./images/flyer/flyer4.jpg", caption: "MarketCraft Pop‑Up Fair", description: "Playful hand‑drawn elements and bright headline for a local fair." },
 ];
 
 export default function Slideshow() {
