@@ -87,7 +87,7 @@ export default function Slideshow() {
               {/* Desktop nav */}
               <nav className="hidden md:flex gap-6 text-xs sm:text-sm md:text-base text-white/60 ml-auto">
                 <a
-                  href="https://www.instagram.com/pari7hi/"
+                  href="https://parithi029.github.io/portfolio1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white cursor-pointer"
